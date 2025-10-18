@@ -12,7 +12,7 @@ func process(direction int, text string) {
 	txt_arr := []rune(text)
 	txt_arr = txt_arr[:len(txt_arr)-1]
 	str_len := len(txt_arr)
-	var coeff int64 = 0
+	var coeff int64 = 1
 	delay := time.Duration(coeff * int64(time.Millisecond))
 	
 	switch direction {
